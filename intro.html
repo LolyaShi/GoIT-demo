@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John</title>
-    <link rel="stylesheet" href="style.css"> 
+    <title>Home</title>
+    <link rel="stylesheet" href="introstyle.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -29,7 +29,7 @@
                     
             </a>
             <ul class="top-menu">
-                <a href="#" ><li class="nav-link"> Blog</li></a>
+                <a href="index.html" ><li class="nav-link"> Blog</li></a>
                 <a  href="#"><li class="nav-link">Work</li></a>
                 <a  href="#"><li class="nav-link">Contact</li></a>
             </ul>
@@ -37,45 +37,60 @@
     </header>
 
     <main>
-        <div class="container">
-            <section class="main-block">
+        <div class="offer">
+            <div class="container">
+                <div class="offer-content">
+                    <div class="offer-left">
+                        <h1 class="offer-main">
+                            Hi, I’m John!
+                            <br>Creative Technologist
+                        </h1>
 
-                <h1 class="main-title">Blog</h1>
-
-                <article class="post-block">
-                    <div class="post-content">
-                        <h2 class="post-title">Post Title</h2>
-                        <p class="post-data">12 Feb 21   |   Design System</p>
-                        <p class="post-text">
+                        <p class="offer-text">
                             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                         </p>
+
+                        <a class="offer-button" href=""><button class="button">Check my Work</button></a>
                     </div>
 
-                </article>
+                    <div class="offer-right">
+                        <img class="photo" src="img/john.png" alt="John">
+                    </div>
+                </div>
 
-                <article class="post-block">
-                    <div class="post-content">
-                        <h2 class="post-title">Post Title</h2>
-                        <p class="post-data">12 Feb 21   |   Design System</p>
-                        <p class="post-text">
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                        </p>
+            </div>
+        </div>
+
+        <div class="posts">
+            <div class="container">
+                <div class="posts-content">
+                    <h3 class="block-title">Recent Posts</h3>
+
+                    <div class="articles">
+                        <article class="post">
+                            <div class="post-content">
+                                <h2 class="post-title">Post Title</h2>
+                                <p class="post-data">12 Feb 21   |   Design System</p>
+                                <p class="post-text">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="post">
+                            <div class="post-content">
+                                <h2 class="post-title">Post Title</h2>
+                                <p class="post-data">12 Feb 21   |   Design System</p>
+                                <p class="post-text">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                </p>
+                            </div>
+                        </article>
                     </div>
 
-                </article>
+                </div>
+            </div>
 
-                <article class="post-block">
-                    <div class="post-content">
-                        <h2 class="post-title">Post Title</h2>
-                        <p class="post-data">12 Feb 21   |   Design System</p>
-                        <p class="post-text">
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                        </p>
-                    </div>
-
-                </article>
-
-            </section>
         </div>
     </main>
 
@@ -129,6 +144,5 @@
             <p class="footer-text">© 2022 Your Name. All rights reserved.</p>
         </div>
     </footer>
-    
 </body>
 </html>
