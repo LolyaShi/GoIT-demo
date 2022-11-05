@@ -53,6 +53,9 @@ header{
     display: inline-block;
     margin-left: 24px;
     color:black;
+
+    transition: color 0.1s
+    linear, font-size 0.1s;
 }
 
 .nav-link:hover{
@@ -160,6 +163,8 @@ header{
     width: 438px;
     height: 226px;
     background-color: #fff;
+
+    font-family: "Inter";
    
 }
 
@@ -203,7 +208,7 @@ header{
 }
 
 .post-text{
-    width: 350px;
+    width: 406px;
     font-family: "Inter";
     font-size: 16px;
     font-weight: 400;
